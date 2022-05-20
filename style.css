@@ -1,0 +1,145 @@
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+.nav1{
+	display: flex;
+	align-items: center;
+}
+.nav2{
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+
+}
+.font{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	color: #676C67;
+	min-width: 100px;
+	text-align: center;
+}
+.connectbtn{
+	background: #389D3C;
+	border-radius: 10px;
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;
+	border: none;
+	padding: 10px;
+	min-width: 124px;
+	
+}
+.nav2 a{
+	text-decoration: none;
+}
+.nav2 a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: LightGray;
+	border-radius: 10px;
+	color: #676C67;
+}
+.main_font1{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 38px;
+	letter-spacing: -1px;
+	color: #262F27;
+
+}
+.rect{
+	background: #FFFFFF;
+	border: 2px solid #E9EEE9;
+	box-sizing: border-box;
+	border-radius: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.mainbtn1{
+	background: #899EE2;
+	border-radius: 100px;
+	border: none;
+	display: flex;
+	align-items: center;
+	padding:5px;
+}
+.mainbtn2{
+	background: #9C8FEE;
+	border-radius: 100px;
+	border: none;
+	display: flex;
+	align-items: center;
+	padding:5px;
+}
+.main_font2{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+.card_img{
+	background-image: url(assets/image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+.card{
+	background: #FFFFFF;
+	border: 2px solid #E9EEE9;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 74%;
+	margin: 0 auto;
+	height: auto;
+}
+.cardmark{
+	background: #E9EEE9;
+	border-radius: 6px;
+	margin: 5px;
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #676C67;
+	width: 25%;
+	padding-top: 7px;
+	height: 30px;
+}
+.cfont{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	color: #676C67;
+	min-width: 100px;
+	text-align: left;
+}
+.image{
+	width: 50%;
+}
+.image1{
+	width: 100%;
+	margin: 0 auto;
+}
